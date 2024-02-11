@@ -1,0 +1,154 @@
+11:51:11.055 INFO  Users.JdbcUserDao - Creating user with id 100
+11:51:11.694 INFO  Users.JdbcUserDao - Getting all users
+11:51:11.744 INFO  Users.JdbcUserDao - Getting user with id 100
+11:51:11.766 INFO  Users.JdbcUserDao - Updating user with id 100
+11:51:11.792 INFO  Users.JdbcUserDao - Getting user with id 100
+11:51:11.813 INFO  Users.JdbcUserDao - Deleting user with id 100
+11:51:11.838 INFO  Users.JdbcUserDao - Getting user with id 100
+11:51:11.858 INFO  UserDetails.JdbcUserDetailsDAO - Creating userDetails with detailsId 5
+11:51:11.878 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 5 created successfully
+11:51:11.879 INFO  UserDetails.JdbcUserDetailsDAO - Getting all userDetails
+11:51:11.897 DEBUG UserDetails.JdbcUserDetailsDAO - All userDetails have got
+11:51:11.904 INFO  UserDetails.JdbcUserDetailsDAO - Getting userDetails with detailsId 5
+11:51:11.921 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 5 got successfully
+11:51:11.924 INFO  UserDetails.JdbcUserDetailsDAO - Updating userDetails with detailsId 5
+11:51:11.943 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 5 updated successfully
+11:51:11.944 INFO  UserDetails.JdbcUserDetailsDAO - Getting userDetails with detailsId 5
+11:51:11.961 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 5 got successfully
+11:51:11.962 INFO  UserDetails.JdbcUserDetailsDAO - Deleting userDetails with detailsId 5
+11:51:11.981 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 5 deleted successfully
+11:51:11.983 INFO  UserDetails.JdbcUserDetailsDAO - Getting userDetails with detailsId 5
+11:51:11.998 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 5 got successfully
+11:51:12.005 INFO  Products.JdbcProductsDAO - Creating product Products{product_id = 10, product_name ='Crisps "Lays"', price ='38.99', description ='100 g. Crisps with Salt}
+11:51:12.026 INFO  Products.JdbcProductsDAO - Getting all products
+11:51:12.045 INFO  Products.JdbcProductsDAO - Getting product with id 10
+11:51:12.061 INFO  Products.JdbcProductsDAO - Updating product Products{product_id = 10, product_name ='Crisps "Lays"', price ='38.99', description ='(Changed) 300 g. Crisps with Salt}
+11:51:12.079 INFO  Products.JdbcProductsDAO - Getting product with id 10
+11:51:12.093 INFO  Products.JdbcProductsDAO - Deleting product Products{product_id = 10, product_name ='Crisps "Lays"', price ='38.99', description ='(Changed) 300 g. Crisps with Salt}
+11:51:12.113 INFO  Products.JdbcProductsDAO - Getting product with id 10
+11:51:12.131 INFO  ShoppingCart.JdbcCartDAO - Adding product Crisps to shopping cart with user name Надя
+11:51:12.150 INFO  ShoppingCart.JdbcCartDAO - Removing product Crisps from shopping cart with user name Надя
+11:51:12.170 INFO  ShoppingCart.JdbcCartDAO - Getting all products from shopping cart with user name Надя
+11:51:12.187 INFO  Orders.JdbcOrderDao - Getting all orders
+11:51:12.217 INFO  Orders.JdbcOrderDao - Getting all orders from user with user id 3
+11:51:12.232 INFO  Orders.JdbcOrderDao - Getting all orders from user with user id 2
+12:51:11.357 INFO  ShoppingCart.JdbcCartDAO - Removing all products from shopping cart with user name testUser 
+12:51:12.106 INFO  ShoppingCart.JdbcCartDAO - Adding product product3 to shopping cart with user name testUser
+12:51:12.155 INFO  ShoppingCart.JdbcCartDAO - Removing product product3 from shopping cart with user name testUser
+12:51:12.223 INFO  ShoppingCart.JdbcCartDAO - Getting all products from shopping cart with user name testUser
+12:51:12.288 INFO  ShoppingCart.JdbcCartDAO - Removing all products from shopping cart with user name testUser 
+12:51:12.328 INFO  ShoppingCart.JdbcCartDAO - Adding product product3 to shopping cart with user name testUser
+12:51:12.363 INFO  ShoppingCart.JdbcCartDAO - Getting all products from shopping cart with user name testUser
+12:51:12.397 INFO  ShoppingCart.JdbcCartDAO - Removing all products from shopping cart with user name testUser 
+12:51:12.428 INFO  ShoppingCart.JdbcCartDAO - Adding product product3 to shopping cart with user name testUser
+12:51:12.457 INFO  ShoppingCart.JdbcCartDAO - Getting all products from shopping cart with user name testUser
+12:51:12.487 INFO  ShoppingCart.JdbcCartDAO - Removing all products from shopping cart with user name testUser 
+12:51:12.516 INFO  ShoppingCart.JdbcCartDAO - Adding product product3 to shopping cart with user name testUser
+12:51:12.544 INFO  ShoppingCart.JdbcCartDAO - Adding product product4 to shopping cart with user name testUser
+12:51:12.575 INFO  ShoppingCart.JdbcCartDAO - Removing all products from shopping cart with user name testUser 
+12:51:12.598 INFO  ShoppingCart.JdbcCartDAO - Getting all products from shopping cart with user name testUser
+12:51:12.639 INFO  Orders.JdbcOrderDao - Getting all orders from user with user id 4
+12:51:12.678 INFO  Orders.JdbcOrderDao - Getting all orders
+12:51:12.706 INFO  Orders.JdbcOrderDao - Getting all orders from user with user id 4
+12:51:12.731 INFO  Orders.JdbcOrderDao - Saving order with order id 13
+12:51:12.761 INFO  Orders.JdbcOrderDao - Getting all orders from user with user id 4
+12:51:12.811 INFO  Products.JdbcProductsDAO - Creating product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:12.859 INFO  Products.JdbcProductsDAO - Deleting product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:12.885 INFO  Products.JdbcProductsDAO - Creating product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:12.909 INFO  Products.JdbcProductsDAO - Creating product Products{product_id = 16, product_name ='NewProduct', price ='20.0', description ='NewDescription}
+12:51:12.930 INFO  Products.JdbcProductsDAO - Getting product with id 16
+12:51:12.953 INFO  Products.JdbcProductsDAO - Deleting product Products{product_id = 16, product_name ='NewProduct', price ='20.0', description ='NewDescription}
+12:51:12.976 INFO  Products.JdbcProductsDAO - Deleting product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:13.002 INFO  Products.JdbcProductsDAO - Creating product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:13.025 INFO  Products.JdbcProductsDAO - Updating product Products{product_id = 15, product_name ='TestProduct', price ='15.0', description ='UpdatedDescription}
+12:51:13.049 INFO  Products.JdbcProductsDAO - Deleting product Products{product_id = 15, product_name ='TestProduct', price ='15.0', description ='UpdatedDescription}
+12:51:13.074 INFO  Products.JdbcProductsDAO - Creating product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:13.099 INFO  Products.JdbcProductsDAO - Getting product with id 15
+12:51:13.119 INFO  Products.JdbcProductsDAO - Deleting product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:13.144 INFO  Products.JdbcProductsDAO - Creating product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:13.166 INFO  Products.JdbcProductsDAO - Getting product with id 15
+12:51:13.185 INFO  Products.JdbcProductsDAO - Deleting product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:13.215 INFO  Products.JdbcProductsDAO - Getting product with id 15
+12:51:13.233 INFO  Products.JdbcProductsDAO - Deleting product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:13.253 INFO  Products.JdbcProductsDAO - Creating product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:13.275 INFO  Products.JdbcProductsDAO - Getting all products
+12:51:13.294 INFO  Products.JdbcProductsDAO - Getting product with id 15
+12:51:13.313 INFO  Products.JdbcProductsDAO - Deleting product Products{product_id = 15, product_name ='TestProduct', price ='10.0', description ='TestDescription}
+12:51:13.348 INFO  Users.JdbcUserDao - Creating user with id 8
+12:51:13.370 INFO  Users.JdbcUserDao - Getting all users
+12:51:13.390 INFO  Users.JdbcUserDao - Getting user with id 8
+12:51:13.409 INFO  Users.JdbcUserDao - Deleting user with id 8
+12:51:13.432 INFO  Users.JdbcUserDao - Creating user with id 8
+12:51:13.453 INFO  Users.JdbcUserDao - Updating user with id 8
+12:51:13.476 INFO  Users.JdbcUserDao - Getting user with id 8
+12:51:13.495 INFO  Users.JdbcUserDao - Deleting user with id 8
+12:51:13.518 INFO  Users.JdbcUserDao - Creating user with id 8
+12:51:13.544 INFO  Users.JdbcUserDao - Creating user with id 150
+12:51:13.567 INFO  Users.JdbcUserDao - Getting user with id 150
+12:51:13.590 INFO  Users.JdbcUserDao - Deleting user with id 150
+12:51:13.611 INFO  Users.JdbcUserDao - Deleting user with id 8
+12:51:13.638 INFO  Users.JdbcUserDao - Creating user with id 8
+12:51:13.657 INFO  Users.JdbcUserDao - Getting user with id 8
+12:51:13.676 INFO  Users.JdbcUserDao - Deleting user with id 8
+12:51:13.696 INFO  Users.JdbcUserDao - Getting user with id 8
+12:51:13.716 INFO  Users.JdbcUserDao - Deleting user with id 8
+12:51:13.735 INFO  Users.JdbcUserDao - Creating user with id 8
+12:51:13.755 INFO  Users.JdbcUserDao - Getting user with id 8
+12:51:13.773 INFO  Users.JdbcUserDao - Deleting user with id 8
+12:51:13.800 INFO  Users.JdbcUserDao - Creating user with id 8
+12:51:13.822 INFO  Users.JdbcUserDao - Getting user id with name Test
+12:51:13.839 INFO  Users.JdbcUserDao - Deleting user with id 8
+12:51:13.868 INFO  UserDetails.JdbcUserDetailsDAO - Creating userDetails with detailsId 15
+12:51:13.890 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 created successfully
+12:51:13.891 INFO  UserDetails.JdbcUserDetailsDAO - Getting all userDetails
+12:51:13.907 DEBUG UserDetails.JdbcUserDetailsDAO - All userDetails have got
+12:51:13.909 INFO  UserDetails.JdbcUserDetailsDAO - Getting userDetails with detailsId 15
+12:51:13.926 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 got successfully
+12:51:13.927 INFO  UserDetails.JdbcUserDetailsDAO - Deleting userDetails with detailsId 15
+12:51:13.946 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 deleted successfully
+12:51:13.949 INFO  UserDetails.JdbcUserDetailsDAO - Creating userDetails with detailsId 15
+12:51:13.969 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 created successfully
+12:51:13.971 INFO  UserDetails.JdbcUserDetailsDAO - Getting userDetails with detailsId 15
+12:51:13.987 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 got successfully
+12:51:13.987 INFO  UserDetails.JdbcUserDetailsDAO - Deleting userDetails with detailsId 15
+12:51:14.005 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 deleted successfully
+12:51:14.006 INFO  UserDetails.JdbcUserDetailsDAO - Getting userDetails with detailsId 15
+12:51:14.025 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 got successfully
+12:51:14.026 INFO  UserDetails.JdbcUserDetailsDAO - Deleting userDetails with detailsId 15
+12:51:14.043 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 deleted successfully
+12:51:14.047 INFO  UserDetails.JdbcUserDetailsDAO - Creating userDetails with detailsId 15
+12:51:14.069 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 created successfully
+12:51:14.070 INFO  UserDetails.JdbcUserDetailsDAO - Creating userDetails with detailsId 150
+12:51:14.089 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 150 created successfully
+12:51:14.090 INFO  UserDetails.JdbcUserDetailsDAO - Getting userDetails with detailsId 150
+12:51:14.106 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 150 got successfully
+12:51:14.107 INFO  UserDetails.JdbcUserDetailsDAO - Deleting userDetails with detailsId 150
+12:51:14.130 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 150 deleted successfully
+12:51:14.131 INFO  UserDetails.JdbcUserDetailsDAO - Deleting userDetails with detailsId 15
+12:51:14.152 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 deleted successfully
+12:51:14.156 INFO  UserDetails.JdbcUserDetailsDAO - Creating userDetails with detailsId 15
+12:51:14.177 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 created successfully
+12:51:14.178 INFO  UserDetails.JdbcUserDetailsDAO - Getting userDetails with detailsId 15
+12:51:14.193 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 got successfully
+12:51:14.195 INFO  UserDetails.JdbcUserDetailsDAO - Deleting userDetails with detailsId 15
+12:51:14.216 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 deleted successfully
+12:51:14.219 INFO  UserDetails.JdbcUserDetailsDAO - Creating userDetails with detailsId 15
+12:51:14.238 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 created successfully
+12:51:14.239 INFO  UserDetails.JdbcUserDetailsDAO - Updating userDetails with detailsId 15
+12:51:14.318 ERROR UserDetails.JdbcUserDetailsDAO - Error updating userDetails with detailsId 15: Data truncation: Data too long for column 'phone_number' at row 1
+12:51:14.318 INFO  UserDetails.JdbcUserDetailsDAO - Deleting userDetails with detailsId 15
+12:51:14.337 DEBUG UserDetails.JdbcUserDetailsDAO - UserDetails with detailsId 15 deleted successfully
+12:51:14.344 INFO  Products.JdbcProductsDAO - Getting total price for user orderServiceTest
+12:51:14.398 INFO  example.OrderService - Placing order for user orderServiceTest
+12:51:14.399 INFO  ShoppingCart.JdbcCartDAO - Getting all products from shopping cart with user name orderServiceTest
+12:51:14.417 DEBUG example.OrderService - Received products from cart: [Сигареты "Marlboro Gold", Пиво "Bud"]
+12:51:14.418 INFO  Products.JdbcProductsDAO - Getting total price for user orderServiceTest
+12:51:14.468 DEBUG example.OrderService - Total price for user's products: 135.55
+12:51:14.470 INFO  Users.JdbcUserDao - Getting user id with name orderServiceTest
+12:51:14.484 INFO  Orders.JdbcOrderDao - Saving order with order id 20
+12:51:14.508 ERROR Orders.JdbcOrderDao - Error saving order with id 20: Duplicate entry '20' for key 'orders.PRIMARY'
+12:51:14.508 INFO  example.OrderService - Order saved successfully
+12:51:14.509 INFO  ShoppingCart.JdbcCartDAO - Removing all products from shopping cart with user name orderServiceTest 
+12:51:14.531 INFO  example.OrderService - All products removed from shopping cart
+12:51:14.531 INFO  Users.JdbcUserDao - Getting user id with name orderServiceTest
+12:51:14.546 INFO  Orders.JdbcOrderDao - Getting all orders from user with user id 9
